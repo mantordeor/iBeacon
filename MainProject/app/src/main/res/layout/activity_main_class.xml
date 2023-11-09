@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Main_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:text="滴滴搖人"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/Main_tv_ChatBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Main_tv_title"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:text="校園微定位服務"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Main_tv_ChatBox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Main_tv_ChatBox"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:text="您好 : " />
+
+        <Button
+            android:id="@+id/Main_bt_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="景點導覽"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:drawablePadding="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/Main_bt_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="景點導覽"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:drawablePadding="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/Main_bt_third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="景點導覽"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:drawablePadding="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/Main_bt_forth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="景點導覽"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:drawablePadding="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+</RelativeLayout>

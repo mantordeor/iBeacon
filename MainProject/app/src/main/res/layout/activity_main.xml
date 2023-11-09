@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background" />
+
+    <EditText
+        android:id="@+id/Singin_et_UserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:hint="Please input your account" />
+
+    <EditText
+        android:id="@+id/Singin_et_PassWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please input your password"
+        android:padding="20dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/Singin_bt_Singin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sing in" />
+</LinearLayout>
